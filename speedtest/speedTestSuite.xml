@@ -4,10 +4,11 @@
 		<parameter name="platform" value="Windows" />
 		<parameter name="browser" value="firefox" />
 		<parameter name="version" value="54.0.1" />
-		<!-- <parameter name="baseUrl" value="http://beta.speedtest.net/es" /> -->
+		<parameter name="url" value="http://beta.speedtest.net/" />
+		<parameter name="mode" value="local" />
 
 		<classes>
-			<class name="com.speedtest.speedtest.connectionSpeedTest" />
+			<class name="com.speedtest.speedtest.ConnectionSpeedTest" />
 		</classes>
 	</test>
 </suite>
