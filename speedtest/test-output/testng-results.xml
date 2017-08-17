@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60232" started-at="2017-08-17T01:50:18Z" finished-at="2017-08-17T01:51:18Z">
+  <suite name="Suite" duration-ms="53577" started-at="2017-08-17T18:06:43Z" finished-at="2017-08-17T18:07:36Z">
     <groups>
     </groups>
-    <test name="Firefox-Test" duration-ms="60232" started-at="2017-08-17T01:50:18Z" finished-at="2017-08-17T01:51:18Z">
-      <class name="com.speedtest.speedtest.ConnectionSpeedTest">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.speedtest.speedtest.ConnectionSpeedTest@59ec2012]" name="setup" is-config="true" duration-ms="7589" started-at="2017-08-16T20:50:18Z" finished-at="2017-08-16T20:50:25Z">
+    <test name="Firefox-Test" duration-ms="53577" started-at="2017-08-17T18:06:43Z" finished-at="2017-08-17T18:07:36Z">
+      <class name="com.speedtest.net.speedtest.ConnectionSpeedTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="setup" is-config="true" duration-ms="8089" started-at="2017-08-17T13:06:43Z" finished-at="2017-08-17T13:06:51Z">
           <params>
             <param index="0">
               <value>
@@ -38,81 +38,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.speedtest.speedtest.ConnectionSpeedTest@59ec2012]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-08-16T20:50:25Z" finished-at="2017-08-16T20:50:25Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-08-17T13:06:51Z" finished-at="2017-08-17T13:06:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.speedtest.speedtest.ConnectionSpeedTest@59ec2012]" name="beforeMethod" is-config="true" duration-ms="11124" started-at="2017-08-16T20:50:25Z" finished-at="2017-08-16T20:50:37Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="beforeMethod" is-config="true" duration-ms="7215" started-at="2017-08-17T13:06:51Z" finished-at="2017-08-17T13:06:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="connectionSpeedTest()[pri:0, instance:com.speedtest.speedtest.ConnectionSpeedTest@59ec2012]" name="connectionSpeedTest" duration-ms="40671" started-at="2017-08-16T20:50:37Z" finished-at="2017-08-16T20:51:17Z">
+        <test-method status="PASS" signature="connectionSpeedTest()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="connectionSpeedTest" duration-ms="37994" started-at="2017-08-17T13:06:58Z" finished-at="2017-08-17T13:07:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectionSpeedTest -->
-        <test-method status="FAIL" signature="afterMethod()[pri:0, instance:com.speedtest.speedtest.ConnectionSpeedTest@59ec2012]" name="afterMethod" is-config="true" duration-ms="807" started-at="2017-08-16T20:51:17Z" finished-at="2017-08-16T20:51:18Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Tried to run command without establishing a connection
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'HUGOMORARJ-PC', ip: '192.168.85.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\HUGOMO~1\AppData\Local\Temp\rust_mozprofile.e1R2WzIJluDF, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=14084.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 3db2600b-b87b-4872-a700-e50a52472078]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
-Build info: version: 'unknown', revision: 'unknown', time: 'unknown'
-System info: host: 'HUGOMORARJ-PC', ip: '192.168.85.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_141'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\HUGOMO~1\AppData\Local\Temp\rust_mozprofile.e1R2WzIJluDF, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=14084.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
-Session ID: 3db2600b-b87b-4872-a700-e50a52472078
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)
-	at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:533)
-	at com.speedtest.speedtest.ConnectionSpeedTest.afterMethod(ConnectionSpeedTest.java:46)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:723)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
-	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
-	at java.util.concurrent.FutureTask.run(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="afterMethod" is-config="true" duration-ms="240" started-at="2017-08-17T13:07:36Z" finished-at="2017-08-17T13:07:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="SKIP" signature="afterClass()[pri:0, instance:com.speedtest.speedtest.ConnectionSpeedTest@59ec2012]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-08-16T20:51:18Z" finished-at="2017-08-16T20:51:18Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-08-17T13:07:36Z" finished-at="2017-08-17T13:07:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.speedtest.speedtest.ConnectionSpeedTest -->
+      </class> <!-- com.speedtest.net.speedtest.ConnectionSpeedTest -->
     </test> <!-- Firefox-Test -->
   </suite> <!-- Suite -->
 </testng-results>

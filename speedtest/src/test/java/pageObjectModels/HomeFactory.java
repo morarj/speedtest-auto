@@ -84,25 +84,7 @@ public class HomeFactory {
 	}
 	
 	/***
-	 * Set destination city
-	 * @param destination
-	 */
-	
-	/**
-	 * Set departure date in departure date text box
-	 * @param date
-	 */
-	
-	/**
-	 * Set return date in return date text box
-	 * @param date
-	 */
-
-	/**
-	 * Click the search button box element
-	 */
-	
-	/**
-	 * Clear all the fields on the Search page
+	 * 
+	 * @param
 	 */
 }

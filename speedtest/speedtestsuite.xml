@@ -8,7 +8,7 @@
 		<parameter name="mode" value="local" />
 
 		<classes>
-			<class name="com.speedtest.speedtest.ConnectionSpeedTest" />
+			<class name="com.speedtest.net.speedtest.ConnectionSpeedTest" />
 		</classes>
 	</test>
 </suite>

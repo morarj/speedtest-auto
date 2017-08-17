@@ -1,4 +1,4 @@
-package com.speedtest.speedtest;
+package com.speedtest.net.speedtest;
 
 import org.testng.annotations.Test;
 
