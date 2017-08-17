@@ -50,7 +50,7 @@ public class HomeFactory {
 		Boolean result = new WebDriverWait(driver, 45).until(ExpectedConditions.textMatches(css, pattern));
 		
 		if(result)
-			return driver.findElement(css);
+			return pingSpeed;
 		
 		return null;
 	}
@@ -64,7 +64,7 @@ public class HomeFactory {
 		Boolean result = new WebDriverWait(driver, 45).until(ExpectedConditions.not(ExpectedConditions.attributeContains(downloadSpeed, "data-download-status-value", "NaN")));
 		
 		if(result)
-			return driver.findElement(css);
+			return downloadSpeed;
 		
 		return null;
 	}
@@ -78,7 +78,7 @@ public class HomeFactory {
 		Boolean result = new WebDriverWait(driver, 45).until(ExpectedConditions.not(ExpectedConditions.attributeContains(uploadSpeed, "data-upload-status-value", "NaN")));
 		
 		if(result)
-			return driver.findElement(css);
+			return uploadSpeed;
 		
 		return null;
 	}
