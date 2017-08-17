@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="53577" started-at="2017-08-17T18:06:43Z" finished-at="2017-08-17T18:07:36Z">
+  <suite name="Suite" duration-ms="56965" started-at="2017-08-17T23:36:12Z" finished-at="2017-08-17T23:37:09Z">
     <groups>
     </groups>
-    <test name="Firefox-Test" duration-ms="53577" started-at="2017-08-17T18:06:43Z" finished-at="2017-08-17T18:07:36Z">
+    <test name="Firefox-Test" duration-ms="56965" started-at="2017-08-17T23:36:12Z" finished-at="2017-08-17T23:37:09Z">
       <class name="com.speedtest.net.speedtest.ConnectionSpeedTest">
-        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="setup" is-config="true" duration-ms="8089" started-at="2017-08-17T13:06:43Z" finished-at="2017-08-17T13:06:51Z">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@5c90e579]" name="setup" is-config="true" duration-ms="19171" started-at="2017-08-17T18:36:12Z" finished-at="2017-08-17T18:36:31Z">
           <params>
             <param index="0">
               <value>
@@ -38,23 +38,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-08-17T13:06:51Z" finished-at="2017-08-17T13:06:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="beforeMethod" is-config="true" duration-ms="7215" started-at="2017-08-17T13:06:51Z" finished-at="2017-08-17T13:06:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="connectionSpeedTest()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="connectionSpeedTest" duration-ms="37994" started-at="2017-08-17T13:06:58Z" finished-at="2017-08-17T13:07:36Z">
+        <test-method status="PASS" signature="connectionSpeedTest()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@5c90e579]" name="connectionSpeedTest" duration-ms="36874" started-at="2017-08-17T18:36:31Z" finished-at="2017-08-17T18:37:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- connectionSpeedTest -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="afterMethod" is-config="true" duration-ms="240" started-at="2017-08-17T13:07:36Z" finished-at="2017-08-17T13:07:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@59494225]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-08-17T13:07:36Z" finished-at="2017-08-17T13:07:36Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.speedtest.net.speedtest.ConnectionSpeedTest@5c90e579]" name="afterClass" is-config="true" duration-ms="889" started-at="2017-08-17T18:37:08Z" finished-at="2017-08-17T18:37:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
