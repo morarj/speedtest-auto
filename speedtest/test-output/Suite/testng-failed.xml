@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
-  <test name="Firefox-Test(failed)" parallel="tests">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Firefox-Test(failed)">
     <parameter name="mode" value="local"/>
     <parameter name="browser" value="firefox"/>
     <parameter name="version" value="54.0.1"/>
@@ -10,12 +10,9 @@
     <classes>
       <class name="com.speedtest.net.speedtest.ConnectionSpeedTest">
         <methods>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
+          <include name="setup"/>
           <include name="afterClass"/>
           <include name="connectionSpeedTest"/>
-          <include name="setup"/>
-          <include name="afterMethod"/>
         </methods>
       </class> <!-- com.speedtest.net.speedtest.ConnectionSpeedTest -->
     </classes>

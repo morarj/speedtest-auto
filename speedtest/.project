@@ -20,4 +20,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>Resources/SpeedTestReports.xlsx</name>
+			<type>1</type>
+			<location>C:/Users/HugoMorArj/eclipse-workspace/speedtest-auto/speedtest/Resources/SpeedTestReports.xlsx</location>
+		</link>
+	</linkedResources>
 </projectDescription>

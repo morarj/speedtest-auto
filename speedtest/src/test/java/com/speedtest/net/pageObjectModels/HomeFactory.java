@@ -1,4 +1,4 @@
-package pageObjectModels;
+package com.speedtest.net.pageObjectModels;
 
 import java.util.regex.Pattern;
 
