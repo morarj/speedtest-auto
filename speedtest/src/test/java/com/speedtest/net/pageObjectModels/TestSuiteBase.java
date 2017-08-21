@@ -19,6 +19,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
+import com.speedtest.net.constants.BrowserDriverConstants;
 import com.speedtest.net.constants.ExcelFileConstants;
 import com.speedtest.net.helpers.ExcelUtility;
 import com.speedtest.net.speedtest.ConnectionSpeedTest;
@@ -89,13 +90,11 @@ public class TestSuiteBase {
 		} else if (mode.equalsIgnoreCase("local")) {
 			// Browsers
 			if (browser.equalsIgnoreCase("firefox")) {
-				System.setProperty("webdriver.gecko.driver",
-						"C:\\Users\\HugoMorArj\\OneDrive\\Cursos\\Udemy\\Selenium-Webdriver-with-Java\\drivers\\geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver", BrowserDriverConstants.GECKO_DRIVER);
 				driver = new FirefoxDriver();
 			}
 			if (browser.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver",
-						"C:\\Users\\HugoMorArj\\OneDrive\\Cursos\\Udemy\\Selenium-Webdriver-with-Java\\drivers\\chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", BrowserDriverConstants.CHROME_DRIVER);
 				driver = new ChromeDriver();
 			}
 		}

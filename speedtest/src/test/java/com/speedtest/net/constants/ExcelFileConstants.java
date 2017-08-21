@@ -1,7 +1,7 @@
 package com.speedtest.net.constants;
 
 public class ExcelFileConstants {
-	public static String FILE_PATH = "C:\\Users\\HugoMorArj\\eclipse-workspace\\speedtest-auto\\speedtest\\Resources\\";
+	public static String FILE_PATH = "";
 	public static String FILE_NAME = "SpeedTestReports.xlsx";
 	public static String SHEET_NAME = "Reports";
 	public static int STARTING_CELL = 3;
