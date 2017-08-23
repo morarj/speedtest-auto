@@ -10,3 +10,4 @@ Dependencies:
   Apache POI
 
 Jenkins: https://jenkins.io/download/
+  Install: Maven Integration plugin
