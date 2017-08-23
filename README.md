@@ -11,3 +11,6 @@ Dependencies:
 
 Jenkins: https://jenkins.io/download/
   Install: Maven Integration plugin
+  Configure global variables
+  Schedule: H/15 * * * *
+  mvn test -PSpeedTestReport
