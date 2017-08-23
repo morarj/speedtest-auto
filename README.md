@@ -9,4 +9,4 @@ Dependencies:
   Log4J2
   Apache POI
 
-Includes Jenkins and the possibility to run on different machines.
+Jenkins: https://jenkins.io/download/
